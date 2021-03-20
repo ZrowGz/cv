@@ -1,0 +1,49 @@
+
+  a:link {
+    color: #025955;
+  }
+
+  a:visited {
+    color: #00917c;
+  }
+
+  body {
+    background-color: #d8ebe4;
+    color: #282846;
+  }
+
+  hr {
+    border-style: dotted none none none;
+    border-width: 12px;
+    border-color: #6e7582;
+    height: 0;
+    width: 15%;
+  }
+
+  h1 {
+    color: #007580;
+  }
+
+  h3 {
+    color: #007580;
+  }
+
+
+/****************CLASS SELECTORS (more specific than above)*******************/
+
+  .circular {
+    border-radius: 100%;
+  }
+
+/******************ID SELECTORS*********************/
+
+#heading {
+  color: #007580;
+}
+
+#footer {
+  border-style: solid;
+  border-width: 1px;
+  height: 1px;
+  width: 90%;
+}
